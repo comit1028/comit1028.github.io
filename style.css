@@ -1,4 +1,5 @@
 body {
+  font-family: 'IBM Plex Sans KR', sans-serif;
   width: 100%;
   height: 100%;
   margin-top: 100px;
@@ -8,7 +9,7 @@ body {
   color: white;
 }
 
-#background-video {
+#background-image {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -25,15 +26,18 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: grey;
+  background-color: black;
   display: flex;
   justify-content: center;
 }
 
 #main {
-  background-color: orange;
-  color: black;
-  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(102, 103, 171, 0.5);
+  color: white;
+  width: 100vw;
+  align-items: center;
 }
 
 #input {
@@ -41,8 +45,9 @@ header {
 }
 
 #input select {
-  width: 100px;
+  width: 120px;
   height: 30px;
+  border-radius: 20px;
 }
 
 #BtnGroup {
@@ -52,12 +57,12 @@ header {
 }
 
 #randomBtn {
-  background-color: yellow;
+  background-color: white;
   color: black;
   border-radius: 30px;
 }
 
 #randomBtn:hover {
-  background-color: orange;
+  background-color: rgba(102, 103, 171, 1);
   color: white;
 }
