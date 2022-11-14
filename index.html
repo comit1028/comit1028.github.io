@@ -4,16 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <title>율전 맛집!</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <video id="background-video" autoplay loop muted poster="">
-    <source src="bgVideo.mp4" type="video/mp4">
-  </video>
-
+  <img id="background-image" src="img/bg1.png" />
   <header>
-    <h1>환영합니다. WELCOME!</h1>
+    <h1>WELCOME TO 율전맛집 추천!</h1>
   </header>
 
   <section id="main">
@@ -28,29 +28,25 @@
         <option value="한식">한식</option>
         <option value="중식">중식</option>
         <option value="일식">일식</option>
-        <option value="분식">분식</option>
         <option value="제3국">제3국</option>
-        <option value="인스턴트">인스턴트</option>
       </select>
 
       <select name="종류(면/밥)" id="variety">
         <option value="밥">밥</option>
         <option value="면">면</option>
-        <option value="기타">기타</option>
       </select>
 
       <select name="가격" id="price">
-        <option value="1">4000원 이하</option>
-        <option value="2">4000원~6000원</option>
-        <option value="2">6000원~8000원</option>
-        <option value="2">8000원~10000원</option>
-        <option value="2">FLEX를 하고 싶다!!</option>
+        <option value="1">평균가격 10000원 미만</option>
+        <option value="2">평균가격 10000원 이상</option>
+        <option value="선택안함">선택안함</option>
       </select>
 
       <select name="인원" id="people">
         <option value="1">혼밥</option>
         <option value="2">두명</option>
         <option value="4">단체</option>
+        <option value="선택안함">선택안함</option>
       </select>
 
       <select name="현위치" id="location">
@@ -58,6 +54,7 @@
         <option value="후문건너">후문건너+역</option>
         <option value="정문">정문</option>
         <option value="역너머">역너머</option>
+        <option value="선택안함">선택안함</option>
       </select>
     </section>
 
@@ -68,25 +65,7 @@
     </section>
   </section>
 
-  <hr>
-
-  <section id="restaurant">
-    <!---이 부분이 꼭 필요한가요?--->
-    <h2>율전의 맛집들 종류</h2>
-    <h3>이 중에 끌리는게 있으신가요?</h3>
-    <ul>
-      <li><a href="http://alchon.co.kr/board/bbs/board.php?bo_table=franchise_sch&wr_id=29">알촌</a></li>
-      <li><a href="https://www.xn--w39at6wpzax3i7sdctt.kr/html/index.html">명륜진사갈비</a></li>
-      <li>일미닭갈비</li>
-      <li>무대뽀핫도그</li>
-      <li>백령도 칼국수</li>
-      <li>모수밀면</li>
-      <li>성대밥상</li>
-      <li>생각나는 순대국(2호점)</li>
-      <li>...</li>
-    </ul>
-  </section>
-  <script src="foodDB.js"></script>
+  <script src="js/foodDB.js"></script>
 </body>
 
 </html>
