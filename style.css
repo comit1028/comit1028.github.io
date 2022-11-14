@@ -32,12 +32,12 @@ header {
 }
 
 #main {
+  display: flex;
+  flex-direction: column;
   background-color: rgba(102, 103, 171, 0.5);
   color: white;
   width: 100vw;
-  justify-content: center;
-
-  /*border-radius: 20px;*/
+  align-items: center;
 }
 
 #input {
@@ -45,8 +45,9 @@ header {
 }
 
 #input select {
-  width: 100px;
+  width: 120px;
   height: 30px;
+  border-radius: 20px;
 }
 
 #BtnGroup {
@@ -65,10 +66,3 @@ header {
   background-color: rgba(102, 103, 171, 1);
   color: white;
 }
-/*
-#welcomeMsg {
-  position: fixed;
-  background-color: black;
-  justify-content: center;
-}
-*/
