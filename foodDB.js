@@ -132,7 +132,7 @@ const foodDb = [
     {
         name: "지코바치킨",
         country: "인스턴트",
-        variety: "밥",
+        variety: "기타",
         people: [2,4],
         location: "후문+쪽문",
         menu: "숯불양념구이",
@@ -162,7 +162,7 @@ const foodDb = [
     {
         name: "떡의 작품",
         country: "분식",
-        variety: "밥",
+        variety: "기타",
         people: [1,2],
         location: "후문+쪽문",
         menu: "가래떡볶이",
@@ -172,7 +172,7 @@ const foodDb = [
     {
         name: "킹고하우스",
         country: "분식",
-        variety: "밥",
+        variety: "기타",
         people: [1,2],
         location: "후문+쪽문",
         menu: "떡볶이, 순대, 튀김",
@@ -182,7 +182,7 @@ const foodDb = [
     {
         name: "중경마라탕",
         country: "중식",
-        variety: "면",
+        variety: "기타",
         people: [1, 2],
         location: "후문+쪽문",
         menu: "마라탕, 꿔바로우",
@@ -202,7 +202,7 @@ const foodDb = [
     {
         name: "동대문엽기떡볶이",
         country: "분식",
-        variety: "밥",
+        variety: "기타",
         people: [2],
         location: "후문+쪽문",
         menu: "떡볶이",
@@ -222,7 +222,7 @@ const foodDb = [
     {
         name: "노랑통닭",
         country: "인스턴트",
-        variety: "밥",
+        variety: "기타",
         people: [2, 4],
         location: "후문+쪽문",
         menu: "치킨",
@@ -238,6 +238,136 @@ const foodDb = [
         menu: "설렁탕, 삼계탕",
         dayOff: "없음",
         address: "경기 수원시 장안구 화산로213번길 23"
+    },
+    {
+        name: "알촌",
+        country: "한식",
+        variety: "밥",
+        people: [1, 2],
+        location: "후문+쪽문",
+        menu: "알밥",
+        dayOff: "없음",
+        address: "경기 수원시 장안구 서부로2106번길 32"
+    },
+    {
+        name: "예국향",
+        country: "한식",
+        variety: "밥",
+        people: [1, 2],
+        location: "후문+쪽문",
+        menu: "닭볶음밥, 국수",
+        dayOff: "",
+        address: "경기 수원시 장안구 서부로2106번길 32 예국향"
+    },
+    {
+        name: "성대밥상",
+        country: "한식",
+        variety: "밥",
+        people: [1, 2],
+        location: "후문+쪽문",
+        menu: "제육덮밥, 비빔밥",
+        dayOff: "",
+        address: "경기 수원시 장안구 서부로2126번길 50-10"
+    },
+    {
+        name: "맘스터치",
+        country: "인스턴트",
+        variety: "기타",
+        people: [1, 2],
+        location: "후문+쪽문",
+        menu: "햄버거, 치킨",
+        dayOff: "없음",
+        address: "경기 수원시 장안구 서부로 2128"
+    },
+    {
+        name: "행컵",
+        country: "한식",
+        variety: "밥",
+        people: [1],
+        location: "후문+쪽문",
+        menu: "컵밥, 볶음밥",
+        dayOff: "없음",
+        address: "경기 수원시 장안구 서부로2126번길 30"
+    },
+    {
+        name: "부대통령",
+        country: "한식",
+        variety: "밥",
+        people: [1,2],
+        location: "후문+쪽문",
+        menu: "부대찌개, 제육볶음",
+        dayOff: "매주 토요일",
+        address: "경기 수원시 장안구 서부로 2128 3층"
+    },
+    {
+        name: "버거운버거",
+        country: "인스턴트",
+        variety: "기타",
+        people: [1, 2],
+        location: "후문+쪽문",
+        menu: "햄버거, 치킨",
+        dayOff: "없음",
+        address: "경기 수원시 장안구 서부로2126번길 29 1층"
+    },
+    {
+        name: "쪼꼬야끼",
+        country: "분식",
+        variety: "기타",
+        people: [1, 2],
+        location: "후문+쪽문",
+        menu: "타코야끼, 떡볶이",
+        dayOff: "없음",
+        address: "경기 수원시 장안구 서부로2126번길 38 38  103호"
+    },
+    {
+        name: "밥은화",
+        country: "한식",
+        variety: "밥",
+        people: [1, 2],
+        location: "후문+쪽문",
+        menu: "직화 덮밥",
+        dayOff: "매주 일요일",
+        address: "경기 수원시 장안구 서부로2106번길 26-6 1층 밥은화"
+    },
+    {
+        name: "참바른김밥",
+        country: "한식",
+        variety: "밥",
+        people: [1, 2],
+        location: "후문+쪽문",
+        menu: "김밥",
+        dayOff: "없음",
+        address: "경기 수원시 장안구 서부로2126번길 17 참바른김밥"
+    },
+    {
+        name: "옛이야기덮밥",
+        country: "한식",
+        variety: "밥",
+        people: [1, 2],
+        location: "후문+쪽문",
+        menu: "덮밥",
+        dayOff: "매주 금요일",
+        address: "경기 수원시 장안구 서부로2106번길 21"
+    },
+    {
+        name: "우리집밥",
+        country: "한식",
+        variety: "밥",
+        people: [1, 2],
+        location: "후문+쪽문",
+        menu: "된장찌개, 김치찌개",
+        dayOff: "매주 금요일",
+        address: "경기 수원시 장안구 서부로2106번길 26-2"
+    },
+    {
+        name: "짱식당",
+        country: "한식",
+        variety: "밥",
+        people: [1, 2],
+        location: "후문+쪽문",
+        menu: "보쌈정식",
+        dayOff: "매주 토요일",
+        address: "경기 수원시 장안구 서부로2126번길 42"
     }
 ]
 
